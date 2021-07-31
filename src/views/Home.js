@@ -6,20 +6,17 @@ import WhoAreWe from "../components/sections/WhoAreWe";
 import Testimonial from "../components/sections/Testimonial";
 import TargetAudience from "../components/sections/TargetAudience";
 import TimeLine from "../components/sections/Timeline";
+import Payment from "../components/sections/Payment";
 
 const Home = () => {
   return (
     <>
       <Hero className="illustration-section-01" />
       <AboutTheProgram />
-      <WhoAreWe
-        invertMobile
-        topDivider
-        imageFill
-        className="illustration-section-02"
-      />
+      <WhoAreWe/>
       <TargetAudience />
       <TimeLine />
+      <Payment topDivider />
       <Testimonial topDivider />
     </>
   );
