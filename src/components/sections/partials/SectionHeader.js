@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
@@ -31,7 +31,9 @@ const SectionHeader = ({
 
   const Component = tag;
 
+  console.log(data)
   return (
+     
     <>
       {(data.title || data.paragraph) &&
         <div
@@ -48,7 +50,11 @@ const SectionHeader = ({
                 )}>{data.title}</Component>
             }
             {data.paragraph &&
+            <Fragment>
               <p className="m-0">{data.paragraph}</p>
+              <a href={data.link} className="m-0"> click here </a>
+            </Fragment>
+              
             }
           </div>
         </div>
