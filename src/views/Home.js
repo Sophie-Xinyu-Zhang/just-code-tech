@@ -6,7 +6,6 @@ import WhoAreWe from "../components/sections/WhoAreWe";
 import Testimonial from "../components/sections/Testimonial";
 import TargetAudience from "../components/sections/TargetAudience";
 import TimeLine from "../components/sections/Timeline";
-import Cta from "../components/sections/Cta";
 
 const Home = () => {
   return (
@@ -22,12 +21,6 @@ const Home = () => {
       <TargetAudience />
       <TimeLine />
       <Testimonial topDivider />
-      {/* <Cta split /> */}
-      <div className="center-content">
-        <Button tag="a" color="primary" wideMobile>
-          Sign Up For Contact List
-        </Button>
-      </div>
     </>
   );
 };
