@@ -53,8 +53,11 @@ const Hero = ({
                 className="m-0 mb-32 reveal-from-bottom"
                 data-reveal-delay="400"
               >
-                Our landing page template works on all devices, so you only have
-                to set it up once, and get beautiful results forever.
+                Learn how to get your dream job at Google, Facebook, Amazon,
+                Apple, etc. by joining a cohort with a proven track record. The
+                cohort will teach you: the top algorithm patterns, how to tackle
+                live interviews with 1-1 mock interviews, and strategize your
+                way to a 6-figure salary, & more.
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
@@ -64,15 +67,16 @@ const Hero = ({
                     wideMobile
                     href="https://cruip.com/"
                   >
-                    Get started
+                    Apply here
                   </Button>
                   <Button
                     tag="a"
                     color="dark"
                     wideMobile
                     href="https://github.com/cruip/open-react-template/"
+                    // href line to be fixed
                   >
-                    View on Github
+                    Learn more
                   </Button>
                 </ButtonGroup>
               </div>
