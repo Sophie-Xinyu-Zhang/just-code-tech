@@ -50,8 +50,7 @@ const WhoAreWe = ({
 
   const sectionHeader = {
     title: "Who are we?",
-    paragraph:
-      `We are software engineers passionate about helping people get into
+    paragraph: `We are software engineers passionate about helping people get into
        top tech companies and love teaching. We realize that interviewing is
        one of the hardest things out there for students, and want to make the process
        easier for everyone.`,
@@ -73,9 +72,13 @@ const WhoAreWe = ({
                 </div>
                 <h3 className="mt-0 mb-12">Justin Lin</h3>
                 <p className="m-0">
-                  I'm currently a full time software engineer working at Amazon, and have previously interned at both Amazon and JP Morgan Chase. 
-                  I've not only been able to go through the interview process myself, with only a 2.8 GPA, but have had replicable success mentoring and teaching
-                  my friends and peers, as you can see in the testimonial sections, to also get into these companies. 
+                  I'm currently a full time software engineer working at Amazon,
+                  and have previously interned at both Amazon and JP Morgan
+                  Chase. I've not only been able to go through the interview
+                  process myself, with only a 2.8 GPA, but have had replicable
+                  success mentoring and teaching my friends and peers, as you
+                  can see in the testimonial sections, to also get into these
+                  companies.
                 </p>
               </div>
               <div
@@ -86,7 +89,7 @@ const WhoAreWe = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/features-split-image-01.png")}
+                  src={require("./../../assets/images/jl.jpeg")}
                   alt="Features split 01"
                   width={528}
                   height={396}
@@ -104,11 +107,13 @@ const WhoAreWe = ({
                 </div>
                 <h3 className="mt-0 mb-12">Sophie Zhang</h3>
                 <p className="m-0">
-                  Hi there! I’m an intern at Bloomberg working as a full stack web developer. 
-                  As a former mentee under Justin, I was able to get into a FAANG level company 
-                  within 6 months and as a sophmore, learning from scratch the algorithms and technical
-                  skills I needed. I'm excited to join on as a secondary guide to the program as I've now
-                  gathered a lot of insights while working with Justin on effectively breaking into FAANG.
+                  Hi there! I’m an intern at Bloomberg working as a full stack
+                  web developer. As a former mentee under Justin, I was able to
+                  get into a FAANG level company within 6 months and as a
+                  sophmore, learning from scratch the algorithms and technical
+                  skills I needed. I'm excited to join on as a secondary guide
+                  to the program as I've now gathered a lot of insights while
+                  working with Justin on effectively breaking into FAANG.
                 </p>
               </div>
               <div
@@ -119,7 +124,7 @@ const WhoAreWe = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/features-split-image-02.png")}
+                  src={require("./../../assets/images/sz.jpeg")}
                   alt="Features split 02"
                   width={528}
                   height={396}
