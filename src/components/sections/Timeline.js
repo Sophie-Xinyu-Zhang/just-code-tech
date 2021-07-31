@@ -49,9 +49,10 @@ const Timeline = ({
   );
 
   const sectionHeader = {
-    title: "Who are we?",
+    title: "Timeline for the cohort",
     paragraph:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.",
+      "Due to the small size of our program, we only accept students every 3 months. The first cohort date will be on December 32, 2050 and it's a 10-week program. You can look into more details of the specific dates here.",
+    // remember to insert hyperlink regarding holiday schedule
   };
 
   return (
@@ -66,9 +67,9 @@ const Timeline = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  First month
                 </div>
-                <h3 className="mt-0 mb-12">Data-driven insights</h3>
+                <h3 className="mt-0 mb-12">Beginners Phase</h3>
                 <p className="m-0">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -98,9 +99,9 @@ const Timeline = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Second month
                 </div>
-                <h3 className="mt-0 mb-12">Data-driven insights</h3>
+                <h3 className="mt-0 mb-12">Intermediate Phase</h3>
                 <p className="m-0">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -130,9 +131,9 @@ const Timeline = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Third month
                 </div>
-                <h3 className="mt-0 mb-12">Data-driven insights</h3>
+                <h3 className="mt-0 mb-12">Advance Phase</h3>
                 <p className="m-0">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua
