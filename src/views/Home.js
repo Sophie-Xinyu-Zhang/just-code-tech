@@ -2,8 +2,9 @@ import React from "react";
 // import sections
 import Hero from "../components/sections/Hero";
 import AboutTheProgram from "../components/sections/AboutTheProgram";
-import FeaturesSplit from "../components/sections/FeaturesSplit";
+import WhoAreWe from "../components/sections/WhoAreWe";
 import Testimonial from "../components/sections/Testimonial";
+import TargetAudience from "../components/sections/TargetAudience";
 import Cta from "../components/sections/Cta";
 
 const Home = () => {
@@ -11,12 +12,13 @@ const Home = () => {
     <>
       <Hero className="illustration-section-01" />
       <AboutTheProgram />
-      <FeaturesSplit
+      <WhoAreWe
         invertMobile
         topDivider
         imageFill
         className="illustration-section-02"
       />
+      <TargetAudience />
       <Testimonial topDivider />
       {/* <Cta split /> */}
       <div className="center-content">
