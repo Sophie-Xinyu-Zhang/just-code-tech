@@ -51,7 +51,10 @@ const WhoAreWe = ({
   const sectionHeader = {
     title: "Who are we?",
     paragraph:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.",
+      `We are software engineers passionate about helping people get into
+       top tech companies and love teaching. We realize that interviewing is
+       one of the hardest things out there for students, and want to make the process
+       easier for everyone.`,
   };
 
   return (
@@ -70,10 +73,9 @@ const WhoAreWe = ({
                 </div>
                 <h3 className="mt-0 mb-12">Justin Lin</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  — Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  I'm currently a full time software engineer working at Amazon, and have previously interned at both Amazon and JP Morgan Chase. 
+                  I've not only been able to go through the interview process myself, with only a 2.8 GPA, but have had replicable success mentoring and teaching
+                  my friends and peers, as you can see in the testimonial sections, to also get into these companies. 
                 </p>
               </div>
               <div
@@ -102,10 +104,11 @@ const WhoAreWe = ({
                 </div>
                 <h3 className="mt-0 mb-12">Sophie Zhang</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  — Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Hi there! I’m an intern at Bloomberg working as a full stack web developer. 
+                  As a former mentee under Justin, I was able to get into a FAANG level company 
+                  within 6 months and as a sophmore, learning from scratch the algorithms and technical
+                  skills I needed. I'm excited to join on as a secondary guide to the program as I've now
+                  gathered a lot of insights while working with Justin on effectively breaking into FAANG.
                 </p>
               </div>
               <div

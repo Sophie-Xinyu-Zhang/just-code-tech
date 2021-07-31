@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react';
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
+import React, { Fragment } from 'react'
+import PropTypes from 'prop-types'
+import classNames from 'classnames'
 
 const propTypes = {
   data: PropTypes.shape({
@@ -16,54 +16,52 @@ const defaultProps = {
   tag: 'h2'
 }
 
-const SectionHeader = ({
-  className,
-  data,
-  children,
-  tag,
-  ...props
-}) => {
+const SectionHeader = ({ className, data, children, tag, ...props }) => {
+  const classes = classNames('section-header', className)
 
-  const classes = classNames(
-    'section-header',
-    className
-  );
-
-  const Component = tag;
-
+  const Component = tag
   console.log(data)
   return (
-     
     <>
-      {(data.title || data.paragraph) &&
-        <div
-          {...props}
-          className={classes}
-        >
-          <div className="container-xs">
+      {(data.title || data.paragraph) && (
+        <div {...props} className={classes}>
+          <div className='container-xs'>
             {children}
-            {data.title &&
-              <Component className={
-                classNames(
+            {data.title && (
+              <Component
+                className={classNames(
                   'mt-0',
                   data.paragraph ? 'mb-16' : 'mb-0'
-                )}>{data.title}</Component>
-            }
-            {data.paragraph &&
-            <Fragment>
-              <p className="m-0">{data.paragraph} <a href={data.link} style={{color: '#5356d7'}} className="m-0"> click here </a></p>
-              
-            </Fragment>
-              
-            }
+                )}
+              >
+                {data.title}
+              </Component>
+            )}
+            {data.paragraph && (
+              <Fragment>
+                <p className='m-0'>
+                  {data.paragraph}{' '}
+
+                  {data.link && <a
+                    href={data.link}
+                    style={{ color: '#5356d7' }}
+                    className='m-0'
+                  >
+                    {' '}
+                    click here{' '}
+                  </a>}
+
+                </p>
+              </Fragment>
+            )}
           </div>
         </div>
-      }
+      )}
     </>
-  );
+  )
 }
 
-SectionHeader.propTypes = propTypes;
-SectionHeader.defaultProps = defaultProps;
+SectionHeader.propTypes = propTypes
+SectionHeader.defaultProps = defaultProps
 
-export default SectionHeader;
+export default SectionHeader
