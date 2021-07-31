@@ -51,8 +51,8 @@ const SectionHeader = ({
             }
             {data.paragraph &&
             <Fragment>
-              <p className="m-0">{data.paragraph}</p>
-              <a href={data.link} className="m-0"> click here </a>
+              <p className="m-0">{data.paragraph} <a href={data.link} style={{color: '#5356d7'}} className="m-0"> click here </a></p>
+              
             </Fragment>
               
             }

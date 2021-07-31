@@ -42,7 +42,7 @@ const Testimonial = ({
   const sectionHeader = {
     title: 'Testimonials',
     paragraph:
-      'Below is just a snippet of those I\'ve mentored or consulted with. To find more: ',
+      'Below is just a snippet of those I\'ve mentored or consulted with. To see more: ',
     link: 'https://www.notion.so/justinlinpersonal/Testimonials-d68f253bcb2f4cda98b56c90af68b218'
   }
 
@@ -69,7 +69,7 @@ const Testimonial = ({
               <div className='tiles-item-inner'>
                 <div className='testimonial-item-content'>
                   <h5>
-                    Amazon Intern (soph) / Google Intern (upcoming junior){' '}
+                    Amazon Intern (soph) / Google Intern (junior){' '}
                   </h5>
                   <p className='text-sm mb-0'>
                     Justin totally changed how far I thought I could go in CS
