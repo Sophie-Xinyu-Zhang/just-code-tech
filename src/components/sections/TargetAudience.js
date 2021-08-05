@@ -71,10 +71,12 @@ const TargetAudience = ({
                 <h3 className="text-color-primary mt-0 mb-12">For</h3>
                 <ul className="m-0 list-inside">
                   {/* li tag with no bullet point styling */}
-                  <li style={{ listStyleType: "none" }}>Characteristic one </li>
-                  <li style={{ listStyleType: "none" }}>Characteristic one </li>
-                  <li style={{ listStyleType: "none" }}>Characteristic one </li>
-                  <li style={{ listStyleType: "none" }}>Characteristic one </li>
+                  <li style={{ listStyleType: "none" }}> Hard-working </li>
+                  <li style={{ listStyleType: "none" }}> Looking for intern/new grad/entry level roles </li>
+                  <li style={{ listStyleType: "none" }}> Has 15-20 hours a week in additional study time </li>
+                  <li style={{ listStyleType: "none" }}> Has fluency in a programming language </li>
+                  <li style={{ listStyleType: "none" }}> Knows basics of time/space complexity </li>
+                  <li style={{ listStyleType: "none" }}> Know basic data structure: hashmap, array, stack, queues, etc </li>
                 </ul>
               </div>
 
@@ -87,10 +89,12 @@ const TargetAudience = ({
                 </div> */}
                 <h3 className="text-color-primary mt-0 mb-12">Not For</h3>
                 <ul className="m-0 list-inside text-center">
-                  <li style={{ listStyleType: "none" }}>Characteristic one </li>
-                  <li style={{ listStyleType: "none" }}>Characteristic one </li>
-                  <li style={{ listStyleType: "none" }}>Characteristic one </li>
-                  <li style={{ listStyleType: "none" }}>Characteristic one </li>
+                  <li style={{ listStyleType: "none" }}> Those limited on time </li>
+                  <li style={{ listStyleType: "none" }}> Doesn't know a programming language </li>
+                  <li style={{ listStyleType: "none" }}> If you do not know big-o notation </li>
+                  <li style={{ listStyleType: "none" }}> If you do not know data structures </li>
+                  <li style={{ listStyleType: "none" }}> Do not have time for regular commitment </li>
+                  <li style={{ listStyleType: "none" }}> Looking for senior roles </li>
                 </ul>
               </div>
             </div>

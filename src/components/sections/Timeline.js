@@ -51,7 +51,9 @@ const Timeline = ({
   const sectionHeader = {
     title: "Timeline for the cohort",
     paragraph:
-      "Due to the small size of our program, we only accept students every 3 months. The first cohort date will be on December 32, 2050 and it's a 10-week program. You can look into more details of the specific dates here.",
+      `Due to the small size of our program, we only accept students every 3 months. 
+       The first cohort date will be on September 7th, 2021 and it's a 10-week program, 
+       ending on November 2nd, 2021. You can look into more details of the specific dates here.`,
     // remember to insert hyperlink regarding holiday schedule
   };
 

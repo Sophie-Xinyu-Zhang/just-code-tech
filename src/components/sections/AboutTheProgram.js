@@ -46,7 +46,7 @@ const AboutTheProgram = ({
   const sectionHeader = {
     title: "About the Program",
     paragraph: `JustCode is a fast-paced 12-week cohort that helps you in your career seeking process.
-      Our goal is to help you tackling job interviews and assisting you into your dream company.
+      Our goal is to help you tackle job interviews and assist you into your dream company.
       The six core values of the cohort are listed below.`,
   };
 
