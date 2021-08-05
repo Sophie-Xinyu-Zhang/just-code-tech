@@ -60,19 +60,19 @@ const Payment = ({
               <div className='tiles-item-inner'>
                 <div className='testimonial-item-footer text-xs mb-0 '>
                   <span className='testimonial-item-name text-color-high'>
-                    Roman Level
+                    Monthly Basic Plan
                   </span>
                   <span className='text-color-low'> / </span>
                   <span className='testimonial-item-link'>
-                    <a href='#0'>AppName</a>
+                    <a href='#0'> $600 a month</a>
                   </span>
                 </div>
                 <div>
-                  <p className='text-sm mb-0'>
-                    — Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                  <p className='text-sm mb-0 mt-16'>
+                    <li> Two 2-hour lecture a week </li>
+                    <li> One 1-hour office hour a week </li>
+                    {/* Bold text with font of 2 rem */}
+                    <li> <b><u>ONE</u></b> 1-1 hour session per month or <b><u>THREE</u></b> for the 10 weeks</li>
                   </p>
                 </div>
               </div>
@@ -82,19 +82,18 @@ const Payment = ({
               <div className='tiles-item-inner'>
                 <div className='testimonial-item-footer text-xs mb-0 '>
                   <span className='testimonial-item-name text-color-high'>
-                    Roman Level
+                    Advance Plan
                   </span>
                   <span className='text-color-low'> / </span>
                   <span className='testimonial-item-link'>
-                    <a href='#0'>AppName</a>
+                    <a href='#0'>$1800 for 10 weeks</a>
                   </span>
                 </div>
                 <div>
-                  <p className='text-sm mb-0'>
-                    — Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                  <p className='text-sm mb-0 mt-16'>
+                    <li> Two 2-hour lectures a week </li>
+                    <li> One 1-hour lectures a week </li>
+                    <li> <b><u>SIX</u></b> 1-1 hour session for the 10 weeks</li>
                   </p>
                 </div>
               </div>
@@ -107,19 +106,21 @@ const Payment = ({
               <div className='tiles-item-inner'>
                 <div className='testimonial-item-footer text-xs mb-0 '>
                   <span className='testimonial-item-name text-color-high'>
-                    Roman Level
+                    Executive Plan
                   </span>
                   <span className='text-color-low'> / </span>
                   <span className='testimonial-item-link'>
-                    <a href='#0'>AppName</a>
+                    <a href='#0'>$2100 for 10 weeks</a>
                   </span>
                 </div>
                 <div>
                   <p className='text-sm mb-0'>
-                    — Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                  <p className='text-sm mb-0 mt-16'>
+                    <li> Two 2-hour lectures a week </li>
+                    <li> One 1-hour lectures a week </li>
+                    <li> Private executive channel to contact us directly for ASAP response </li>
+                    <li> <b><u>TEN</u></b> 1-1 hour session for the 10 weeks</li>
+                  </p>
                   </p>
                 </div>
               </div>

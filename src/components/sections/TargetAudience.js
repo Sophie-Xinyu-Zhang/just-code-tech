@@ -94,6 +94,7 @@ const TargetAudience = ({
                   <li style={{ listStyleType: "none" }}> If you do not know big-o notation </li>
                   <li style={{ listStyleType: "none" }}> If you do not know data structures </li>
                   <li style={{ listStyleType: "none" }}> Do not have time for regular commitment </li>
+                  <li style={{ listStyleType: "none" }}> Looking for a guarantee and only relying on this cohort to get into FAANG </li>
                   <li style={{ listStyleType: "none" }}> Looking for senior roles </li>
                 </ul>
               </div>

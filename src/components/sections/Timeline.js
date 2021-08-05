@@ -73,10 +73,9 @@ const Timeline = ({
                 </div>
                 <h3 className="mt-0 mb-12">Beginners Phase</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  — Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  The first phase is going to cover basic algorithm patterns of: sliding window, two pointer, 
+                  breadth-first search, and depth-first seach. In addition we will do resume reviews and how
+                  to approach a live interview.
                 </p>
               </div>
               <div
@@ -105,10 +104,9 @@ const Timeline = ({
                 </div>
                 <h3 className="mt-0 mb-12">Intermediate Phase</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  — Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  The second phase will cover an additional 4-6 advance patterns such as: topological sort, graphs, heaps, and linkedlists.
+                  In addition will begin to cover
+                  real interview questions given by FAANG companies.
                 </p>
               </div>
               <div
@@ -137,10 +135,8 @@ const Timeline = ({
                 </div>
                 <h3 className="mt-0 mb-12">Advance Phase</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  — Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  The advance phase will begin to focus purely more on analysis, behavioral interviews, and solidifying foundations for live interviews.
+                  At this point, we will be tackling weak points and focusing on how to best approach questions in a deconstructive methodology.
                 </p>
               </div>
               <div
