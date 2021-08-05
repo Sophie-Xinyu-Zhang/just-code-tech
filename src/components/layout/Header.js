@@ -112,10 +112,6 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}
                   >
-                    {/* let's make the icon link to our pitch section
-                    <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
-                    </li> */}
                     <li>
                       <Link
                         to="about"
@@ -182,9 +178,6 @@ const Header = ({
                         Testimonials
                       </Link>
                     </li>
-                    {/* <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
-                    </li> */}
                   </ul>
                   {/* {!hideSignin && ( */}
                   <ul className="list-reset header-nav-right">

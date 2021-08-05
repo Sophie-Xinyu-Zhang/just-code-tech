@@ -3,6 +3,7 @@ import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
 import ButtonGroup from "../elements/ButtonGroup";
 import Button from "../elements/Button";
+import { Link } from "react-scroll";
 
 const propTypes = {
   ...SectionProps.types,
@@ -69,14 +70,15 @@ const Hero = ({
                   >
                     Apply here
                   </Button>
-                  <Button
-                    tag="a"
-                    color="dark"
-                    wideMobile
-                    href="https://github.com/cruip/open-react-template/"
-                    // href line to be fixed
-                  >
-                    Learn more
+                  <Button tag="a" color="dark" wideMobile>
+                    <Link
+                      to="about"
+                      activeClass="active"
+                      spy={true}
+                      smooth={true}
+                    >
+                      Learn more
+                    </Link>
                   </Button>
                 </ButtonGroup>
               </div>
