@@ -68,7 +68,7 @@ const Hero = ({
                     wideMobile
                     href="https://cruip.com/"
                   >
-                    Apply here
+                    Apply now!
                   </Button>
                   <Button tag="a" color="dark" wideMobile>
                     <Link

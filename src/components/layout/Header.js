@@ -187,7 +187,7 @@ const Header = ({
                         className="button button-primary button-wide-mobile button-sm"
                         onClick={closeMenu}
                       >
-                        Sign up
+                        Apply now!
                       </Link>
                     </li>
                   </ul>
