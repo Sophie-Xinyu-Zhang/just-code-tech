@@ -71,6 +71,7 @@ const Payment = ({
                   <p className='text-sm mb-0 mt-16'>
                     <li> Two 2-hour lecture a week </li>
                     <li> One 1-hour office hour a week </li>
+                    <li> Last two weeks will be prorated </li>
                     {/* Bold text with font of 2 rem */}
                     <li> <b><u>ONE</u></b> 1-1 hour session per month or <b><u>THREE</u></b> for the 10 weeks</li>
                   </p>
