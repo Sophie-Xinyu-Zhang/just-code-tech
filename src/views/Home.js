@@ -11,7 +11,7 @@ import Payment from "../components/sections/Payment";
 const Home = () => {
   return (
     <>
-      <Hero className="illustration-section-01" />
+      <Hero className="illustration-section-01" id="pitch" />
       <AboutTheProgram id="about" />
       <WhoAreWe id="intro" />
       <TargetAudience id="target" />
