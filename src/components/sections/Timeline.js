@@ -52,7 +52,7 @@ const Timeline = ({
     title: "Timeline for the cohort",
     paragraph:
       "Due to the small size of our program, we only accept students every 3 months. The first cohort date will be on December 32, 2050 and it's a 10-week program. You can look into more details of the specific dates here.",
-    // remember to insert hyperlink regarding holiday schedule
+    link: "https://justinlinpersonal.notion.site/Calendar-Schedule-1a4afff237f74e948a6f943a77f38a06",
   };
 
   return (
