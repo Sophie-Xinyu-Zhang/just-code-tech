@@ -2,7 +2,7 @@ import React from "react";
 import classNames from "classnames";
 import { SectionSplitProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
-import Image from "../elements/Image";
+// import Image from "../elements/Image";
 
 const propTypes = {
   ...SectionSplitProps.types,
@@ -71,10 +71,10 @@ const TargetAudience = ({
                 <h3 className="text-color-primary mt-0 mb-12">For</h3>
                 <ul className="m-0 list-inside">
                   {/* li tag with no bullet point styling */}
-                  <li style={{listStyleType: "none"}}>Characteristic one </li>
-                  <li style={{listStyleType: "none"}}>Characteristic one </li>
-                  <li style={{listStyleType: "none"}}>Characteristic one </li>
-                  <li style={{listStyleType: "none"}}>Characteristic one </li>
+                  <li style={{ listStyleType: "none" }}>Characteristic one </li>
+                  <li style={{ listStyleType: "none" }}>Characteristic one </li>
+                  <li style={{ listStyleType: "none" }}>Characteristic one </li>
+                  <li style={{ listStyleType: "none" }}>Characteristic one </li>
                 </ul>
               </div>
 
@@ -87,10 +87,10 @@ const TargetAudience = ({
                 </div> */}
                 <h3 className="text-color-primary mt-0 mb-12">Not For</h3>
                 <ul className="m-0 list-inside text-center">
-                  <li style={{listStyleType: "none"}}>Characteristic one </li>
-                  <li style={{listStyleType: "none"}}>Characteristic one </li>
-                  <li style={{listStyleType: "none"}}>Characteristic one </li>
-                  <li style={{listStyleType: "none"}}>Characteristic one </li>
+                  <li style={{ listStyleType: "none" }}>Characteristic one </li>
+                  <li style={{ listStyleType: "none" }}>Characteristic one </li>
+                  <li style={{ listStyleType: "none" }}>Characteristic one </li>
+                  <li style={{ listStyleType: "none" }}>Characteristic one </li>
                 </ul>
               </div>
             </div>

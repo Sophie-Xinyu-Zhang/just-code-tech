@@ -12,12 +12,12 @@ const Home = () => {
   return (
     <>
       <Hero className="illustration-section-01" />
-      <AboutTheProgram />
-      <WhoAreWe/>
-      <TargetAudience />
-      <TimeLine />
-      <Payment topDivider />
-      <Testimonial topDivider />
+      <AboutTheProgram id="about" />
+      <WhoAreWe id="intro" />
+      <TargetAudience id="target" />
+      <TimeLine id="timeline" />
+      <Payment topDivider id="payment" />
+      <Testimonial topDivider id="testimonial" />
     </>
   );
 };

@@ -1,0 +1,8 @@
+header {
+  background-color: #151719;
+}
+
+li {
+  /* change the cursor to pointer */
+  cursor: pointer;
+}
