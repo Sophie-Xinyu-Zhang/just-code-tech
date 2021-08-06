@@ -182,13 +182,13 @@ const Header = ({
                   {/* {!hideSignin && ( */}
                   <ul className="list-reset header-nav-right">
                     <li>
-                      <Link
-                        to="#0"
+                      <a
+                        href="https://tinyurl.com/JustCode1"
                         className="button button-primary button-wide-mobile button-sm"
                         onClick={closeMenu}
                       >
                         Apply now!
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                   {/* )} */}

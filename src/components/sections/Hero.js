@@ -66,7 +66,7 @@ const Hero = ({
                     tag="a"
                     color="primary"
                     wideMobile
-                    href="https://cruip.com/"
+                    href="https://tinyurl.com/JustCode1"
                   >
                     Apply now!
                   </Button>
