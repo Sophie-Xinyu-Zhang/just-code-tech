@@ -42,7 +42,7 @@ const Payment = ({
   const sectionHeader = {
     title: 'Payment Plans',
     paragraph:
-      'The cohort will run for a total of 3 months. But we understand that there are different needs to every individual. Thus, we have three plans. If you have any questions, we highly recommend to check out the FAQ: ',
+      'The cohort will run for a total of 10 weeks! But we understand that there are different needs to every individual. Thus, we have three plans. If you have any questions, we highly recommend to check out the FAQ: ',
     link:
       'https://justinlinpersonal.notion.site/FAQ-957963f2b3c740ad84f7d2a1a63973c0'
   }
@@ -67,6 +67,10 @@ const Payment = ({
                     <a href='#0'> $600 a month</a>
                   </span>
                 </div>
+                {/* div size of .2 rem */}
+                <i style={{ fontSize: '0.8rem' }} >
+                  This plan is paid on a monthly basis and can stop at any time. For the last 2 weeks of the course, it will be prorated to $300 dollars.
+                </i>
                 <div>
                   <p className='text-sm mb-0 mt-16'>
                     <li> Two 2-hour lecture a week </li>
@@ -90,6 +94,9 @@ const Payment = ({
                     <a href='#0'>$1800 for 10 weeks</a>
                   </span>
                 </div>
+                <i style={{ fontSize: '0.8rem' }} >
+                  This plan is paid up-front, with additional cost going to double the amount of 1-1 sessions.
+                </i>
                 <div>
                   <p className='text-sm mb-0 mt-16'>
                     <li> Two 2-hour lectures a week </li>
