@@ -183,7 +183,7 @@ const Header = ({
                   <ul className="list-reset header-nav-right">
                     <li>
                       <a
-                        href="https://tinyurl.com/JustCode1"
+                        href="https://www.cognitoforms.com/JustinLin1/JustCodesTech"
                         className="button button-primary button-wide-mobile button-sm"
                         onClick={closeMenu}
                       >
