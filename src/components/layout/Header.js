@@ -131,7 +131,7 @@ const Header = ({
                         smooth={true}
                         onClick={closeMenu}
                       >
-                        Who are we
+                        Guides
                       </Link>
                     </li>
                     <li>
