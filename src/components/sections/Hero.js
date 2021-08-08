@@ -4,6 +4,7 @@ import { SectionProps } from "../../utils/SectionProps";
 import ButtonGroup from "../elements/ButtonGroup";
 import Button from "../elements/Button";
 import { Link } from "react-scroll";
+import "./applicationRminder.css";
 
 const propTypes = {
   ...SectionProps.types,
@@ -59,6 +60,18 @@ const Hero = ({
                 cohort will teach you: the top algorithm patterns, how to tackle
                 live interviews with 1-1 mock interviews, and strategize your
                 way to a 6-figure salary, & more.
+              </p>
+              <p
+                className="reveal-from-bottom application-reminder"
+                data-reveal-delay="400"
+              >
+                * Next cohort starts: Sept.7 *
+              </p>
+              <p
+                className="reveal-from-bottom application-reminder"
+                data-reveal-delay="400"
+              >
+                * Application deadline: Sept.1 *
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
