@@ -48,18 +48,17 @@ const Hero = ({
               className="mt-0 mb-16 reveal-from-bottom"
               data-reveal-delay="200"
             >
-              <span className="text-color-primary">JustCode</span>.tech
+              <span className="text-color-primary">JustCodes</span>.tech
             </h1>
             <div className="container-xs">
               <p
                 className="m-0 mb-32 reveal-from-bottom"
                 data-reveal-delay="400"
               >
-                Learn how to get your dream job at Google, Facebook, Amazon,
-                Apple, etc. by joining a cohort with a proven track record. The
-                cohort will teach you: the top algorithm patterns, how to tackle
+                Join our cohort and learn how to pass the technical interview for top
+                tech companies. The cohort will teach you: the most frequent algorithm patterns, how to tackle
                 live interviews with 1-1 mock interviews, and strategize your
-                way to a 6-figure salary, & more.
+                way to pass interviews at the top tech companies. 
               </p>
               <p
                 className="reveal-from-bottom application-reminder"
@@ -79,7 +78,7 @@ const Hero = ({
                     tag="a"
                     color="primary"
                     wideMobile
-                    href="https://cruip.com/"
+                    href="https://www.cognitoforms.com/JustinLin1/JustCodesTech"
                   >
                     Apply now!
                   </Button>

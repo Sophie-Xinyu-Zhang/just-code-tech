@@ -182,13 +182,13 @@ const Header = ({
                   {/* {!hideSignin && ( */}
                   <ul className="list-reset header-nav-right">
                     <li>
-                      <Link
-                        to="#0"
+                      <a
+                        href="https://www.cognitoforms.com/JustinLin1/JustCodesTech"
                         className="button button-primary button-wide-mobile button-sm"
                         onClick={closeMenu}
                       >
                         Apply now!
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                   {/* )} */}

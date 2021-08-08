@@ -53,7 +53,7 @@ const Timeline = ({
     paragraph:
       `Due to the small size of our program, we only accept students every 3 months. 
        The first cohort date will be on September 7th, 2021 and it's a 10-week program, 
-       ending on November 2nd, 2021. You can look into more details of the specific dates:`,
+       ending on November 16th, 2021. You can look into more details of the specific dates:`,
        link: "https://justinlinpersonal.notion.site/Calendar-Schedule-1a4afff237f74e948a6f943a77f38a06",
   };
 

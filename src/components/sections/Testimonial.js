@@ -43,7 +43,7 @@ const Testimonial = ({
     title: "Testimonials",
     paragraph:
       "Below is just a snippet of those I've mentored or consulted with. To see more: ",
-    link: "https://www.notion.so/justinlinpersonal/Testimonials-d68f253bcb2f4cda98b56c90af68b218",
+    link: "https://justinlinpersonal.notion.site/Testimonials-d68f253bcb2f4cda98b56c90af68b218",
   };
 
   const icons = {
@@ -68,7 +68,7 @@ const Testimonial = ({
             >
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
-                  <h5>Amazon Intern (soph) / Google Intern (junior) </h5>
+                  <h5>Amazon / Google intern </h5>
                   <p className="text-sm mb-0">
                     Justin totally changed how far I thought I could go in CS
                     and cannot thank him enough :) He mentored me for several
@@ -167,7 +167,7 @@ const Testimonial = ({
             >
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
-                  <h5>Bloomberg Intern (soph) </h5>
+                  <h5>Bloomberg / Amazon intern </h5>
                   <p className="text-sm mb-0">
                     With Justin’s help, I was able to get an offer as a college
                     sophomore within 6 months, starting from nothing to a full
