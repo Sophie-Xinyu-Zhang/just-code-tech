@@ -3,11 +3,26 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="shortcut icon" href="%PUBLIC_URL%/round_logomark_white.svg" />
+  <link rel="shortcut icon" href="%PUBLIC_URL%/round_logomark_black.svg" id="faviconTag" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Web site created using create-react-app" />
   <link rel="apple-touch-icon" href="logo192.png" />
+  <script>
+    const favicon = document.getElementById('faviconTag');
+    const isDark = window.matchMedia("(prefers-color-scheme: dark");
+    const changeFavicon = () => {
+      if (isDark.matches) {
+        favicon.href = 'round_logomark_white.svg';
+      } else {
+        favicon.href = 'round_logomark_black.svg';
+      };
+    };
+
+    changeFavicon();
+
+    setInterval(changeFavicon, 1000);
+  </script>
   <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
